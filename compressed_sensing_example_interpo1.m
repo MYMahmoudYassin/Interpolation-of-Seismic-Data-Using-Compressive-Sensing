@@ -1,6 +1,6 @@
 %___INPUT Seismic shot___
 % compressed sensing interpolation for Seismic data
-%
+%%%%%%%%%%%%%%%%%%%%%%%
 %___DESCRIPTION___
 % MATLAB implementation of compressive sensing interpolation inspired by described in R.
 % Baraniuk, Compressive Sensing, IEEE Signal Processing Magazine, [118],
