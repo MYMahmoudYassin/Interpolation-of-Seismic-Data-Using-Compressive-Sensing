@@ -1,4 +1,8 @@
 # Interpolation-of-Seismic-Data-Using-Compressive-Sensing
+Interpolation of Seismic data traces is a very important topic for the oil and gas industry. One of the interpolation methods is using Compressive Sensing. We managed to apply the theory on a sinusoidal signal perfectly. Then we applied CS to interpolate seismic data, but unfortunately the results were bad compared to basic interpolation methods like linear interpolation. The main obstacle that we faced is finding a sparse transform for seismic data and applying compressive sensing using that transform. We found in the literature that seismic images are sparse in the curvelet transform. However, we could not construct the transform basis 𝜓 and therefore failed in applying compressive sensing on seismic data.
+
+**The organization of the codes as follow:**
+
 1. compressiveSensingTest<br />
 (implementation of compressive sensing theory on sinusoid signal)(use CVX for optimization)<br />
 2. compressed_sensing_example_interpo1<br />
