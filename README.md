@@ -1,4 +1,8 @@
 # Interpolation of Seismic Data Using Compressive Sensing
+
+![alt text](https://github.com/[MYMahmoudYassin]/[Interpolation-of-Seismic-Data-Using-Compressive-Sensing]/blob/[main]/reag_image.jpg?raw=true)
+
+
 Interpolation of Seismic data traces is a very important topic for the oil and gas industry. One of the interpolation methods is using Compressive Sensing. We managed to apply the theory on a sinusoidal signal perfectly. Then we applied CS to interpolate seismic data, but unfortunately the results were bad compared to basic interpolation methods like linear interpolation. The main obstacle that we faced is finding a sparse transform for seismic data and applying compressive sensing using that transform. We found in the literature that seismic images are sparse in the curvelet transform. However, we could not construct the transform basis 𝜓 and therefore failed in applying compressive sensing on seismic data.<br />
 This project was a part of class EE562 – DIGITAL SIGNAL PROSSING I -KFUPM-spring 2022
 - Project members:
